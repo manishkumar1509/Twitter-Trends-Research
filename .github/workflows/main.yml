@@ -3,6 +3,7 @@ name: Twitter Trends Screenshot
 on:
   schedule:
     - cron: "*/5 * * * *"
+  workflow_dispatch:
   
 jobs:
   screenshots:
