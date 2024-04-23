@@ -1,4 +1,4 @@
-name: Selenium Screenshot
+name: Twitter Trends Screenshot
 
 on:
   schedule:
