@@ -26,17 +26,17 @@ def take_screenshot(url, output_file):
 if __name__ == "__main__":
     timestamp = datetime.datetime.now()
 
-    output_file_name = 'results/India/screenshot_'+ str(timestamp) + '.png'
+    output_file_name = 'daily_screenshots/India/screenshot_'+ str(timestamp) + '.png'
     take_screenshot("https://getdaytrends.com/india/", output_file_name)
 
-    output_file_name = 'results/US/screenshot_'+ str(timestamp) + '.png'
+    output_file_name = 'daily_screenshots/US/screenshot_'+ str(timestamp) + '.png'
     take_screenshot("https://getdaytrends.com/united-states/", output_file_name)
 
-    output_file_name = 'results/Worldwide/screenshot_'+ str(timestamp) + '.png'
+    output_file_name = 'daily_screenshots/Worldwide/screenshot_'+ str(timestamp) + '.png'
     take_screenshot("https://getdaytrends.com/", output_file_name)
 
-    output_file_name = 'results/Pakistan/screenshot_'+ str(timestamp) + '.png'
+    output_file_name = 'daily_screenshots/Pakistan/screenshot_'+ str(timestamp) + '.png'
     take_screenshot("https://getdaytrends.com/pakistan/", output_file_name)
 
-    output_file_name = 'results/UK/screenshot_'+ str(timestamp) + '.png'
+    output_file_name = 'daily_screenshots/UK/screenshot_'+ str(timestamp) + '.png'
     take_screenshot("https://getdaytrends.com/united-kingdom/", output_file_name)
