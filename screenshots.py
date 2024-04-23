@@ -32,7 +32,7 @@ if __name__ == "__main__":
     output_file_name = 'results/US/screenshot_'+ str(timestamp) + '.png'
     take_screenshot("https://getdaytrends.com/united-states/", output_file_name)
 
-    output_file_name = 'results/India/worldwide'+ str(timestamp) + '.png'
+    output_file_name = 'results/worldwide/screenshot_'+ str(timestamp) + '.png'
     take_screenshot("https://getdaytrends.com/", output_file_name)
 
     output_file_name = 'results/Pakistan/screenshot_'+ str(timestamp) + '.png'
