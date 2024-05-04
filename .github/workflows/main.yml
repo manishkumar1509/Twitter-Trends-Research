@@ -2,9 +2,8 @@ name: Twitter Trends Screenshot
 
 on:
   schedule:
-  # runs every day at 5:30 PM IST adjusted to PST
-    - cron: "0/5 * * * *"
-  workflow_dispatch:
+    # runs every day at 5:30 PM IST adjusted to PST
+    - cron: "0 5 * * *"
   
 jobs:
   screenshots:
