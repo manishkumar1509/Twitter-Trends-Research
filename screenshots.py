@@ -27,7 +27,7 @@ if __name__ == "__main__":
     timestamp = datetime.datetime.now()
 
     output_file_name = 'daily_screenshots/India/screenshot_'+ str(timestamp) + '.png'
-    take_screenshot("https://getdaytrends.com/india/", output_file_name)
+    take_screenshot("https://twitter-trends.iamrohit.in/india", output_file_name)
 
     output_file_name = 'daily_screenshots/US/screenshot_'+ str(timestamp) + '.png'
     take_screenshot("https://getdaytrends.com/united-states/", output_file_name)
