@@ -30,13 +30,13 @@ if __name__ == "__main__":
     take_screenshot("https://twitter-trends.iamrohit.in/india", output_file_name)
 
     output_file_name = 'daily_screenshots/US/screenshot_'+ str(timestamp) + '.png'
-    take_screenshot("https://getdaytrends.com/united-states/", output_file_name)
+    take_screenshot("https://twitter-trends.iamrohit.in/united-states", output_file_name)
 
     output_file_name = 'daily_screenshots/Worldwide/screenshot_'+ str(timestamp) + '.png'
-    take_screenshot("https://getdaytrends.com/", output_file_name)
+    take_screenshot("https://twitter-trends.iamrohit.in/", output_file_name)
 
     output_file_name = 'daily_screenshots/Pakistan/screenshot_'+ str(timestamp) + '.png'
-    take_screenshot("https://getdaytrends.com/pakistan/", output_file_name)
+    take_screenshot("https://twitter-trends.iamrohit.in/pakistan", output_file_name)
 
     output_file_name = 'daily_screenshots/UK/screenshot_'+ str(timestamp) + '.png'
-    take_screenshot("https://getdaytrends.com/united-kingdom/", output_file_name)
+    take_screenshot("https://twitter-trends.iamrohit.in/united-kingdom", output_file_name)
